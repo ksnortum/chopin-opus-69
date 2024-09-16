@@ -98,7 +98,6 @@ rightHandUpper = \relative {
     f4. e8 ef d |
     
     \barNumberCheck 49
-    % like 17 (16 bars)
     \tuplet 3/2 { df!8)(^\aTempo ef df } c df f ef |
     df2 c4) |
     r4 a8( bf c \acciaccatura { ef } df |
@@ -154,7 +153,6 @@ rightHandUpper = \relative {
   <c, af'>4) <df bf'>8\fermata r\fermata <df f>4(  |
   
   \barNumberCheck 90
-  % like 74
   \voiceOne <bf df>2) \tuplet 3/2 { f8( g f } |
   \oneVoice <c ef>4) <af' c> <bf df>( |
   \voiceOne <g bf>2) \tuplet 3/2 { f8( g f } |
@@ -165,7 +163,6 @@ rightHandUpper = \relative {
   \oneVoice <c ef>2) c'4 |
   
   \barNumberCheck 98
-  % like 82
   <e, c'>4 q-> b'8( c | 
   <f, df'>4) q-> c'!8( df |
   <f, d'>4) q-> c'8( d |
@@ -176,7 +173,6 @@ rightHandUpper = \relative {
   <c, af'>4) <df bf'>8\fermata r\fermata <df f>4(  |
   
   \barNumberCheck 106
-  % like 90
   \voiceOne <bf df>2) \tuplet 3/2 { f8( g f } |
   \oneVoice <c ef>4) <af' c> <bf df>( |
   \voiceOne <g bf>2) \tuplet 3/2 { f8( g f } |
@@ -187,7 +183,6 @@ rightHandUpper = \relative {
   \oneVoice <c ef>2) ef'8( d |
   
   \barNumberCheck 114
-  % like 17
   \tuplet 3/2 { df!8 ef df } c df f ef |
   df2 c4) |
   r4 a8( bf c \acciaccatura { ef } df |
@@ -266,7 +261,6 @@ rightHandLower = \relative {
   s2. * 8 |
   
   \barNumberCheck 90
-  % like 74
   r4 df2->^\ten |
   s2. |
   r4 df2->^\ten |
@@ -280,7 +274,6 @@ rightHandLower = \relative {
   s2. * 8 |
   
   \barNumberCheck 106
-  % like 90
   r4 df2->^\ten |
   s2. |
   r4 df2->^\ten |
@@ -318,7 +311,6 @@ leftHandUpper = \relative {
   s2. * 3 |
   
   \barNumberCheck 17
-  % like 9 and 1
   r4 <af df> q |
   r4 <g df'> <g c> |
   r4 <gf c> q |
@@ -328,7 +320,6 @@ leftHandUpper = \relative {
   s2. * 2 |
   
   \barNumberCheck 25
-  % like 9
   r4 <af df> q |
   r4 <g df'> <g c> |
   r4 <gf c> q |
@@ -356,7 +347,6 @@ leftHandUpper = \relative {
     s2. * 2 |
     
     \barNumberCheck 49
-    % like 17 (16 bars)
     r4 <af df!> q |
     r4 <g df'> <g c> |
     r4 <gf c> q |
@@ -366,7 +356,6 @@ leftHandUpper = \relative {
     s2. * 2 |
     
     \barNumberCheck 57
-    % like 9
     r4 <af df> q |
     r4 <g df'> <g c> |
     r4 <gf c> q |
@@ -403,7 +392,6 @@ leftHandUpper = \relative {
   s2. * 8 |
   
   \barNumberCheck 90
-  % like 74
   s4 g2 |
   s2. |
   s4 bf2 |
@@ -417,7 +405,6 @@ leftHandUpper = \relative {
   s2. * 8 |
   
   \barNumberCheck 106
-  % like 90
   s4 g2 |
   s2. |
   s4 bf2 |
@@ -428,7 +415,6 @@ leftHandUpper = \relative {
   s2. |
   
   \barNumberCheck 114
-  % like 17
   r4 <af df> q |
   r4 <g df'> <g c> |
   r4 <gf c> q |
@@ -438,7 +424,6 @@ leftHandUpper = \relative {
   s2. * 2 |
   
   \barNumberCheck 122
-  % like 25
   r4 <af df> q |
   r4 <g df'> <g c> |
   r4 <gf c> q |
@@ -469,7 +454,6 @@ leftHandLower = \relative {
   af,4 <ef' c'> r |
   
   \barNumberCheck 17
-  % like 1
   \voiceTwo f2. |
   e2. |
   ef!2. |
@@ -480,7 +464,6 @@ leftHandLower = \relative {
   af,4 <ef' af c> q |
   
   \barNumberCheck 25
-  % like 9
   \voiceTwo f2. |
   e2. |
   ef!2. |
@@ -512,7 +495,6 @@ leftHandLower = \relative {
     ef,4 <g ef'> <bf ef> |
     
     \barNumberCheck 49
-    % like 17 (16 bars)
     \voiceTwo f2. |
     e2. |
     ef!2. |
@@ -567,7 +549,6 @@ leftHandLower = \relative {
   <af ef'>4 <g ef'>8\fermata r\fermata r4 |
   
   \barNumberCheck 90
-  % like 74 
   \voiceTwo ef,4 g' ef |
   \oneVoice af,4 af' ef |
   \voiceTwo ef,4 bf'' ef, |
@@ -578,7 +559,6 @@ leftHandLower = \relative {
   \oneVoice af,2 r4 |
   
   \barNumberCheck 98
-  % like 82
   <c g'>4 q2 |
   <cf af'>4 q2 |
   <bf bf'>4 q2 |
@@ -589,7 +569,6 @@ leftHandLower = \relative {
   <af ef'>4 <g ef'>8\fermata r\fermata r4 |
   
   \barNumberCheck 106
-  % like 90
   \voiceTwo ef,4 g' ef |
   \oneVoice af,4 af' ef |
   \voiceTwo ef,4 bf'' ef, |
@@ -600,7 +579,6 @@ leftHandLower = \relative {
   \oneVoice af,2 r4 |
   
   \barNumberCheck 114
-  % like 17
   \voiceTwo f'2. |
   e2. |
   ef!2. |
@@ -611,7 +589,6 @@ leftHandLower = \relative {
   af,4 <ef' af c> q |
   
   \barNumberCheck 122
-  % like 25
   \voiceTwo f2. |
   e2. |
   ef!2. |
@@ -739,7 +716,6 @@ dynamics = {
   s4\! s-\tweak Y-offset 1 \sf s\p |
   
   \barNumberCheck 90
-  % like 74
   s2.\! |
   s4 s2\< |
   s2.\! |
@@ -750,7 +726,6 @@ dynamics = {
   s2 s4\p |
   
   \barNumberCheck 98
-  % like 82
   s2 \pocoAPocoCresc s4\startTextSpan |
   s2. * 4 |
   s2 s8 s\stopTextSpan
@@ -758,7 +733,6 @@ dynamics = {
   s4\! s-\tweak Y-offset 1 \sf s\p |
   
   \barNumberCheck 106
-  % like 90
   s2.\! |
   s4 s2\< |
   s2.\! |
@@ -769,7 +743,6 @@ dynamics = {
   s2. |
   
   \barNumberCheck 114
-  % like 17
   s2.\mf |
   s2\> s4\! |
   s4 s4.\< s8\! |
@@ -983,7 +956,6 @@ pedal = {
   s2. * 8 |
   
   \barNumberCheck 90
-  % like 74
   s2-\tweak Y-offset -2 \sd s8 s\su |
   s2\sd s8 s\su |
   s2-\tweak Y-offset -2 \sd s8 s\su |
@@ -997,7 +969,6 @@ pedal = {
   s2. * 8 |
   
   \barNumberCheck 106
-  % like 90
   s2-\tweak Y-offset -2 \sd s8 s\su |
   s2\sd s8 s\su |
   s2-\tweak Y-offset -2 \sd s8 s\su |

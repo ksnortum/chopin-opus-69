@@ -47,7 +47,6 @@ rightHand = \relative {
   
   \barNumberCheck 17
   d8)(^\aTempo g fs cs d b |
-  % like 2
   as2) fs'4->~( |
   fs8 g fs cs e d |
   b2) fs'4->~( |
@@ -155,7 +154,6 @@ rightHand = \relative {
   \barNumberCheck 98
   \key b \minor
   fs8 g fs cs d b |
-  % like 2
   as2) fs'4->~( |
   fs8 g fs cs e d |
   b2) fs'4->~( |
@@ -165,7 +163,6 @@ rightHand = \relative {
   cs8 b as g fs cs |
   
   \barNumberCheck 106
-  % like 9
   d8)( g fs cs d b |
   as2) fs'4->~( |
   fs8 g fs cs e d |
@@ -176,7 +173,6 @@ rightHand = \relative {
   b4.)^\aTempo fs8( b bf |
   
   \barNumberCheck 114
-  % like 33
   bf4.-!^\conAmina a8 cs e |
   g4. fs8 cs d |
   fs4. e8 b cs |
@@ -187,7 +183,6 @@ rightHand = \relative {
   as4. cs8 g cs |
   
   \barNumberCheck 122
-  % like 41
   fs,4.)-\slurShapeE (^\aTempo as8 cs e |
   g4. fs8 cs d |
   fs4. e8 b cs |
@@ -198,7 +193,6 @@ rightHand = \relative {
   d cs c b as a |
   
   \barNumberCheck 130
-  % like 49
   gs g fs cs d b |
   as4) r a'!( |
   gs8 g fs cs e d |
@@ -209,7 +203,6 @@ rightHand = \relative {
   c8 b as a gs g |
   
   \barNumberCheck 138
-  % like 57
   fs8 f e d cs b |
   as2) g'4->( |
   fs8 g fs cs e d |
@@ -246,7 +239,6 @@ leftHand = \relative {
   <b d>4 b, r |
   
   \barNumberCheck 17
-  % almost like 1
   b4 <fs' b d> q |
   cs4 <fs cs' e> q |
   % beat 3, cs in chord, not as, Urtext
@@ -360,7 +352,6 @@ leftHand = \relative {
   \barNumberCheck 98
   \key b \minor
   b,,4 <fs'' b d> q |
-  % like 2
   cs4 <fs cs' e> q |
   % beats 2 and 3, cs in chord, not as, Urtext
   as,4 <fs' cs' e> q |
@@ -371,7 +362,6 @@ leftHand = \relative {
   b,4 <fs' cs' e> <fs as e'> |
   
   \barNumberCheck 106
-  % like 9
   b,4 <fs' b d> q |
   cs4 <fs cs' e> q |
   fs,4 <fs' as e'> <fs cs' e> |
@@ -382,7 +372,6 @@ leftHand = \relative {
   b,4 <fs' d'> d |
   
   \barNumberCheck 114
-  % like 33
   cs4 <g' a e'> q |
   d4 <fs a d> q |
   % beat 3, cs in chord, not as, Urtext
@@ -394,7 +383,6 @@ leftHand = \relative {
   <fs, fs'>4 <fs' cs' e> <fs b e> |
   
   \barNumberCheck 122
-  % like 41
   <fs, fs'>4 <fs' cs' e> <fs as e'> |
   b,4 <fs' b d> q |
   a,4 <a' cs g'> <a e' g> |
@@ -405,7 +393,6 @@ leftHand = \relative {
   fs,4 <fs' e'> as, |
   
   \barNumberCheck 130
-  % like 49 
   b4 <fs' d'> q |
   cs4 <fs cs' e> q |
   as,4 <fs' cs' e> q |
@@ -416,7 +403,6 @@ leftHand = \relative {
   b,4 <fs' as e'> q |
   
   \barNumberCheck 138
-  % like 57
   b,4 <fs' b d> q |
   cs4 <fs cs' e> q |
   % beat 2, cs in chord, not as, Urtext
@@ -446,7 +432,6 @@ dynamics = {
   s2\> s8 s\! |
   
   \barNumberCheck 17
-  % like 1
   s2.\p |
   s2. * 3 |
   s2\< s8 s\! |
@@ -552,7 +537,6 @@ dynamics = {
   s2.\! |
   
   \barNumberCheck 114
-  % like 33
   s4. s4\< s8\! |
   s2\> s8 s\! |
   s2. * 2 |
@@ -562,7 +546,6 @@ dynamics = {
   s2.^\rit |
   
   \barNumberCheck 122
-  % like 41
   s4. s4\< s8\! |
   s2\> s8 s\! |
   s2\> s8 s\! |
@@ -573,7 +556,6 @@ dynamics = {
   s4.. s16-\tweak Y-offset -1 ^\dimParen s4 |
   
   \barNumberCheck 130
-  % like 49
    s2. |
    s2 s4\sf |
   \tag layout { s2. } \tag midi { s2.\f } |
