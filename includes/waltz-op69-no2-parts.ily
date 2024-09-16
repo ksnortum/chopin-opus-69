@@ -150,7 +150,7 @@ rightHand = \relative {
   <as g'>2 <as fs'>4) |
   <d fs>4( <fs, e'>8[) r16 q16]( <b d>4) |
   <b d>4( <es,cs'>8[) r16 q]^(~ <es b'>4) |
-  << { as4 cs2(^\sf | cs4 fs,) } \\ { fs2.~ | fs4 s4 } >> fs'->(~ |
+  << { as4 cs2(~^\sf | cs4 fs,) } \\ { fs2.~ | fs4 s4 } >> fs'->(~ |
   
   \barNumberCheck 98
   \key b \minor
